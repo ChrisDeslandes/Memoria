@@ -1,0 +1,748 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DFEFDFF6-1BE3-4414-8493-374AFBB0522F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Memória.My.MyApplication</StartupObject>
+    <RootNamespace>Memória</RootNamespace>
+    <AssemblyName>Memória</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Memória.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Memória.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>My Project\Ícones\Brain.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="classes\BandeirasPaises.vb" />
+    <Compile Include="classes\Baralho.vb" />
+    <Compile Include="classes\Carta.vb" />
+    <Compile Include="classes\ComidasBebidas.vb" />
+    <Compile Include="classes\Dificil.vb" />
+    <Compile Include="classes\Facil.vb" />
+    <Compile Include="classes\Intermediario.vb" />
+    <Compile Include="classes\Jogo.vb" />
+    <Compile Include="classes\Nivel.vb" />
+    <Compile Include="classes\Objetos.vb" />
+    <Compile Include="classes\TimesBrasileiros.vb" />
+    <Compile Include="classes\TimesEuropeus.vb" />
+    <Compile Include="classes\TimesNFL.vb" />
+    <Compile Include="JanelaPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JanelaPrincipal.Designer.vb">
+      <DependentUpon>JanelaPrincipal.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JanelaPar.Designer.vb">
+      <DependentUpon>JanelaPar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="JanelaPar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="JanelaPrincipal.resx">
+      <DependentUpon>JanelaPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JanelaPar.resx">
+      <DependentUpon>JanelaPar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Imagens Gerais\Troféu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Bandeiras de Países\Alemanha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Bandeiras de Países\Arábia Saudita.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Bandeiras de Países\Argentina.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Bandeiras de Países\Austrália.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Bandeiras de Países\Brasil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Bandeiras de Países\Canadá.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Bandeiras de Países\Colômbia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Bandeiras de Países\Coréia do Sul.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Bandeiras de Países\Croácia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Bandeiras de Países\Espanha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Bandeiras de Países\Estados Unidos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Bandeiras de Países\Finlândia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Bandeiras de Países\França.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Bandeiras de Países\Grécia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Bandeiras de Países\Holanda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Bandeiras de Países\Irlanda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Bandeiras de Países\Israel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Bandeiras de Países\Itália.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Bandeiras de Países\Japão.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Bandeiras de Países\Marrocos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Bandeiras de Países\México.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Bandeiras de Países\Nigéria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Bandeiras de Países\Noruega.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Bandeiras de Países\Polônia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Bandeiras de Países\Portugal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Bandeiras de Países\Reino Unido.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Bandeiras de Países\República Tcheca.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Bandeiras de Países\Romênia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Bandeiras de Países\Rússia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Bandeiras de Países\Suécia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Bandeiras de Países\Terra.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Bandeiras de Países\Tunísia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Bandeiras de Países\Uruguai.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Comidas e Bebidas\Abacate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Comidas e Bebidas\Abacaxi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Comidas e Bebidas\Bacon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Comidas e Bebidas\Banana.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Comidas e Bebidas\Batata Frita.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Comidas e Bebidas\Bolo de Aniversário.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Comidas e Bebidas\Cachorro Quente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Comidas e Bebidas\Café.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Comidas e Bebidas\Carne.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Comidas e Bebidas\Cenoura.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Comidas e Bebidas\Cereja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Comidas e Bebidas\Cerveja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Comidas e Bebidas\Chocolate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Comidas e Bebidas\Coco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Comidas e Bebidas\Comidas e Bebidas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Comidas e Bebidas\Coquetel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Comidas e Bebidas\Espaguete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Comidas e Bebidas\Frango.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Comidas e Bebidas\Kiwi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Comidas e Bebidas\Maçã.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Comidas e Bebidas\Melancia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Comidas e Bebidas\Mexerica.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Comidas e Bebidas\Morango.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Comidas e Bebidas\Ovo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Comidas e Bebidas\Pão.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Comidas e Bebidas\Pipoca.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Comidas e Bebidas\Pizza.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Comidas e Bebidas\Queijo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Comidas e Bebidas\Sanduíche.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Comidas e Bebidas\Sorvete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Comidas e Bebidas\Uísque.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Comidas e Bebidas\Uva.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Comidas e Bebidas\Vinho.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\NFL Team Logos\49ers.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\NFL Team Logos\Bears.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\NFL Team Logos\Bengals.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\NFL Team Logos\Bills.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\NFL Team Logos\Broncos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\NFL Team Logos\Browns.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\NFL Team Logos\Buccaneers.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\NFL Team Logos\Cardinals.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\NFL Team Logos\Chargers.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\NFL Team Logos\Chiefs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\NFL Team Logos\Colts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\NFL Team Logos\Cowboys.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\NFL Team Logos\Dolphins.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\NFL Team Logos\Eagles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\NFL Team Logos\Falcons.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\NFL Team Logos\Giants.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\NFL Team Logos\Jaguars.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\NFL Team Logos\Jets.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\NFL Team Logos\Lions.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\NFL Team Logos\NFL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\NFL Team Logos\Packers.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\NFL Team Logos\Panthers.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\NFL Team Logos\Patriots.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\NFL Team Logos\Raiders.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\NFL Team Logos\Rams.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\NFL Team Logos\Ravens.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\NFL Team Logos\Saints.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\NFL Team Logos\Seahawks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\NFL Team Logos\Steelers.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\NFL Team Logos\Texans.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\NFL Team Logos\Titans.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\NFL Team Logos\Vikings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\NFL Team Logos\Washington.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Objetos\Cadeado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Objetos\Caixa de Correio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Objetos\Câmera de Vídeo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Objetos\Câmera Fotográfica.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Objetos\Caneta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Objetos\Chave de Boca.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Objetos\Chave.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Objetos\Chuveiro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Objetos\Cigarro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Objetos\Clipe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Objetos\Dinheiro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Objetos\Fone de Ouvido.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Objetos\Guitarra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Objetos\Lâmpada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Objetos\Lanterna.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Objetos\Lápis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Objetos\Livro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Objetos\Lupa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Objetos\Martelo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Objetos\Microfone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Objetos\Microscópio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Objetos\Mouse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Objetos\Nota Musical.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Objetos\Notebook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Objetos\Objetos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Objetos\Parafuso e Porca.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Objetos\Rádio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Objetos\Tachinha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Objetos\Telefone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Objetos\Telescópio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Objetos\Televisão.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Objetos\Tesoura.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Objetos\Vela.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Brasileiros\ABC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Brasileiros\América.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Brasileiros\Atlético-GO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Brasileiros\Atlético-MG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Brasileiros\Atlético-PR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Brasileiros\Avaí.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Brasileiros\Bahia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Brasileiros\Botafogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Brasileiros\Bragantino.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Brasileiros\CBF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Brasileiros\Ceará.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Brasileiros\Chapecoense.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Brasileiros\Corinthians.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Brasileiros\Coritiba.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Brasileiros\Cruzeiro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Brasileiros\Flamengo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Brasileiros\Fluminense.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Brasileiros\Fortaleza.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Brasileiros\Grêmio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Brasileiros\Internacional.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Brasileiros\Náutico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Brasileiros\Palmeiras.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Brasileiros\Paraná.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Brasileiros\Paysandu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Brasileiros\Santa Cruz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Brasileiros\Santos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Brasileiros\São Paulo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Brasileiros\Sport.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Brasileiros\Tupi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Brasileiros\URT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Brasileiros\Vasco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Brasileiros\Villa Nova.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Brasileiros\Vitória.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Europeus\Ajax.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Europeus\Arsenal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Europeus\Atlético de Bilbao.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Europeus\Atlético de Madri.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Europeus\Barcelona.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Europeus\Bayern.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Europeus\Benfica.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Europeus\Borussia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Europeus\Chelsea.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Europeus\CSKA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Europeus\Estrela Vermelha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Europeus\Inter de Milão.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Europeus\Juventus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Europeus\Lazio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Europeus\Liverpool.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Europeus\Lokomotiv Moscow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Europeus\Lyon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Europeus\Manchester City.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Europeus\Manchester United.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Europeus\Milan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Europeus\Napoli.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Europeus\Porto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Europeus\PSG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Europeus\PSV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Europeus\Real Madrid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Europeus\Real Sociedad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Europeus\Roma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Europeus\Shakhtar Donetsk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Europeus\Sporting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Europeus\Tottenham.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Europeus\UEFA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Europeus\Valencia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Times Europeus\Viktoria Plzen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Ícones\Brain.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

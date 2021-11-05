@@ -1,0 +1,721 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Abacate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Comidas e Bebidas\Abacate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Abacaxi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Comidas e Bebidas\Abacaxi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ABC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Brasileiros\ABC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ajax" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Europeus\Ajax.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Alemanha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Bandeiras de Países\Alemanha.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="América" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Brasileiros\América.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Argentina" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Bandeiras de Países\Argentina.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Arsenal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Europeus\Arsenal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Arábia_Saudita" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Bandeiras de Países\Arábia Saudita.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Atlético_de_Bilbao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Europeus\Atlético de Bilbao.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Atlético_de_Madri" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Europeus\Atlético de Madri.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Atlético_GO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Brasileiros\Atlético-GO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Atlético_MG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Brasileiros\Atlético-MG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Atlético_PR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Brasileiros\Atlético-PR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Austrália" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Bandeiras de Países\Austrália.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Avaí" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Brasileiros\Avaí.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bacon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Comidas e Bebidas\Bacon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bahia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Brasileiros\Bahia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Banana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Comidas e Bebidas\Banana.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barcelona" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Europeus\Barcelona.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Batata_Frita" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Comidas e Bebidas\Batata Frita.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bayern" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Europeus\Bayern.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bears" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NFL Team Logos\Bears.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Benfica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Europeus\Benfica.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bengals" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NFL Team Logos\Bengals.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bills" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NFL Team Logos\Bills.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bolo_de_Aniversário" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Comidas e Bebidas\Bolo de Aniversário.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Borussia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Europeus\Borussia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botafogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Brasileiros\Botafogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bragantino" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Brasileiros\Bragantino.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Ícones\Brain.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brasil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Bandeiras de Países\Brasil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Broncos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NFL Team Logos\Broncos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Browns" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NFL Team Logos\Browns.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Buccaneers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NFL Team Logos\Buccaneers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cachorro_Quente" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Comidas e Bebidas\Cachorro Quente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cadeado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Objetos\Cadeado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Café" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Comidas e Bebidas\Café.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Caixa_de_Correio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Objetos\Caixa de Correio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Canadá" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Bandeiras de Países\Canadá.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Caneta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Objetos\Caneta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cardinals" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NFL Team Logos\Cardinals.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carne" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Comidas e Bebidas\Carne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CBF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Brasileiros\CBF.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ceará" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Brasileiros\Ceará.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cenoura" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Comidas e Bebidas\Cenoura.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cereja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Comidas e Bebidas\Cereja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cerveja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Comidas e Bebidas\Cerveja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chapecoense" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Brasileiros\Chapecoense.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chargers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NFL Team Logos\Chargers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Objetos\Chave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chave_de_Boca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Objetos\Chave de Boca.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chelsea" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Europeus\Chelsea.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chiefs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NFL Team Logos\Chiefs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chocolate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Comidas e Bebidas\Chocolate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chuveiro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Objetos\Chuveiro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cigarro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Objetos\Cigarro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Clipe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Objetos\Clipe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Coco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Comidas e Bebidas\Coco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Colts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NFL Team Logos\Colts.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Colômbia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Bandeiras de Países\Colômbia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Comidas_e_Bebidas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Comidas e Bebidas\Comidas e Bebidas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Coquetel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Comidas e Bebidas\Coquetel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Corinthians" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Brasileiros\Corinthians.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Coritiba" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Brasileiros\Coritiba.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Coréia_do_Sul" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Bandeiras de Países\Coréia do Sul.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cowboys" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NFL Team Logos\Cowboys.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Croácia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Bandeiras de Países\Croácia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cruzeiro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Brasileiros\Cruzeiro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CSKA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Europeus\CSKA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Câmera_de_Vídeo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Objetos\Câmera de Vídeo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Câmera_Fotográfica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Objetos\Câmera Fotográfica.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dinheiro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Objetos\Dinheiro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dolphins" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NFL Team Logos\Dolphins.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Eagles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NFL Team Logos\Eagles.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Espaguete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Comidas e Bebidas\Espaguete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Espanha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Bandeiras de Países\Espanha.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estados_Unidos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Bandeiras de Países\Estados Unidos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estrela_Vermelha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Europeus\Estrela Vermelha.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Falcons" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NFL Team Logos\Falcons.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Finlândia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Bandeiras de Países\Finlândia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Flamengo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Brasileiros\Flamengo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fluminense" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Brasileiros\Fluminense.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fone_de_Ouvido" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Objetos\Fone de Ouvido.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fortaleza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Brasileiros\Fortaleza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Frango" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Comidas e Bebidas\Frango.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="França" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Bandeiras de Países\França.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Giants" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NFL Team Logos\Giants.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grécia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Bandeiras de Países\Grécia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grêmio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Brasileiros\Grêmio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Guitarra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Objetos\Guitarra.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Holanda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Bandeiras de Países\Holanda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Internacional" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Brasileiros\Internacional.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Inter_de_Milão" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Europeus\Inter de Milão.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Irlanda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Bandeiras de Países\Irlanda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Israel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Bandeiras de Países\Israel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Itália" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Bandeiras de Países\Itália.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Jaguars" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NFL Team Logos\Jaguars.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Japão" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Bandeiras de Países\Japão.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Jets" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NFL Team Logos\Jets.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Juventus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Europeus\Juventus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kiwi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Comidas e Bebidas\Kiwi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lanterna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Objetos\Lanterna.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lazio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Europeus\Lazio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lions" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NFL Team Logos\Lions.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Liverpool" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Europeus\Liverpool.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Livro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Objetos\Livro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lokomotiv_Moscow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Europeus\Lokomotiv Moscow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lupa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Objetos\Lupa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lyon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Europeus\Lyon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lápis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Objetos\Lápis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lâmpada" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Objetos\Lâmpada.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Manchester_City" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Europeus\Manchester City.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Manchester_United" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Europeus\Manchester United.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Marrocos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Bandeiras de Países\Marrocos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Martelo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Objetos\Martelo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Maçã" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Comidas e Bebidas\Maçã.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Melancia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Comidas e Bebidas\Melancia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mexerica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Comidas e Bebidas\Mexerica.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Microfone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Objetos\Microfone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Microscópio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Objetos\Microscópio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Milan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Europeus\Milan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Morango" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Comidas e Bebidas\Morango.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mouse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Objetos\Mouse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="México" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Bandeiras de Países\México.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Napoli" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Europeus\Napoli.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NFL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NFL Team Logos\NFL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nigéria" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Bandeiras de Países\Nigéria.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Noruega" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Bandeiras de Países\Noruega.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nota_Musical" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Objetos\Nota Musical.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Notebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Objetos\Notebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Náutico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Brasileiros\Náutico.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Objetos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Objetos\Objetos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ovo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Comidas e Bebidas\Ovo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Packers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NFL Team Logos\Packers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Palmeiras" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Brasileiros\Palmeiras.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Panthers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NFL Team Logos\Panthers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Parafuso_e_Porca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Objetos\Parafuso e Porca.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Paraná" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Brasileiros\Paraná.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Patriots" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NFL Team Logos\Patriots.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Paysandu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Brasileiros\Paysandu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pipoca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Comidas e Bebidas\Pipoca.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Comidas e Bebidas\Pizza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Polônia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Bandeiras de Países\Polônia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Porto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Europeus\Porto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Portugal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Bandeiras de Países\Portugal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PSG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Europeus\PSG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PSV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Europeus\PSV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pão" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Comidas e Bebidas\Pão.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Queijo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Comidas e Bebidas\Queijo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Raiders" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NFL Team Logos\Raiders.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rams" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NFL Team Logos\Rams.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ravens" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NFL Team Logos\Ravens.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Real_Madrid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Europeus\Real Madrid.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Real_Sociedad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Europeus\Real Sociedad.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Reino_Unido" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Bandeiras de Países\Reino Unido.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="República_Tcheca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Bandeiras de Países\República Tcheca.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Roma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Europeus\Roma.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Romênia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Bandeiras de Países\Romênia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rádio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Objetos\Rádio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rússia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Bandeiras de Países\Rússia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Saints" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NFL Team Logos\Saints.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sanduíche" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Comidas e Bebidas\Sanduíche.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Santa_Cruz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Brasileiros\Santa Cruz.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Santos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Brasileiros\Santos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Seahawks" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NFL Team Logos\Seahawks.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shakhtar_Donetsk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Europeus\Shakhtar Donetsk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sorvete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Comidas e Bebidas\Sorvete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sport" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Brasileiros\Sport.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sporting" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Europeus\Sporting.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Steelers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NFL Team Logos\Steelers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Suécia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Bandeiras de Países\Suécia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="São_Paulo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Brasileiros\São Paulo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tachinha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Objetos\Tachinha.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Telefone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Objetos\Telefone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Telescópio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Objetos\Telescópio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Televisão" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Objetos\Televisão.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Terra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Bandeiras de Países\Terra.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tesoura" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Objetos\Tesoura.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Texans" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NFL Team Logos\Texans.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Titans" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NFL Team Logos\Titans.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tottenham" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Europeus\Tottenham.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Troféu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Imagens Gerais\Troféu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tunísia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Bandeiras de Países\Tunísia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tupi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Brasileiros\Tupi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UEFA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Europeus\UEFA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="URT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Brasileiros\URT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Uruguai" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Bandeiras de Países\Uruguai.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Uva" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Comidas e Bebidas\Uva.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Uísque" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Comidas e Bebidas\Uísque.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Valencia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Europeus\Valencia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vasco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Brasileiros\Vasco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vela" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Objetos\Vela.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vikings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NFL Team Logos\Vikings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Viktoria_Plzen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Europeus\Viktoria Plzen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Villa_Nova" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Brasileiros\Villa Nova.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vinho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Comidas e Bebidas\Vinho.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vitória" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Times Brasileiros\Vitória.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Washington" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NFL Team Logos\Washington.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_49ers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>NFL Team Logos\49ers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
